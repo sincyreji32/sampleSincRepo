@@ -32,8 +32,13 @@ public class DatabaseConnection {
 			driver.get("https://login.salesforce.com");
 			driver.findElement(By.id("username")).sendKeys(resultSet.getString("username"));
 			driver.findElement(By.id("password")).sendKeys(resultSet.getString("password"));
-					
-		
+			
+			
+			//showing git update
+			
+			System.out.println("updating the cloned code");
+			System.out.println("uploading to github");
+			
 		}
 	}
 
