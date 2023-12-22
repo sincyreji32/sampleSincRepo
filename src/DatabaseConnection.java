@@ -43,8 +43,19 @@ public class DatabaseConnection {
 			
 			System.out.println("cloned code - develop branch - update");
 			
+			//updating by base code
 			
+			System.out.println("base code is getting updated-DatabaseTesting");
 		}
 	}
-
+	public void baseCOdeUpdation()
+	{
+		System.out.println("base code");
+	}
+	
+	public void baseCOdeUpdation1()
+	{
+		System.out.println("base code final updation");
+	}
+	
 }
